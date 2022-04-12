@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+::-webkit-scrollbar {
+  width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 25px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #424242;
+}
+
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+:root {
+    --color-principal: white;
+  
+  }
+
+  body {
+    font-family: "Roboto" !important;
+     background: #ebebeb;
+  }
+
+  #labelProducto{
+    border: 1px solid #2C6BD5;
+    width: 100%;
+    flex-grow: 1;
+    font-size: 14px;
+    color: #2C6BD5;
+    border-radius: 2px;
+  }
+  #labelProducto:hover{
+    background-color: #2C6BD5;
+    color: white !important;
+    cursor: pointer;
+  }
+
+  #orden{
+    border: solid #2C6BD5;
+    border-radius: 5px;
+  }
+#producto{
+  border: solid #2C6BD5;
+  border-radius: 5px;
+
+}
+
+.botonPagar{
+  border-radius: 5px;
+  width: 80px;
+  background-color: green;
+  color:#fff;
+  border: solid  green;
+  margin-bottom: 10px;
+}
+.botonPagar:hover{
+  align-items: flex-end;
+  border-radius: 5px;
+  width: 80px;
+  background-color: #fff;
+  color:green;
+  border: solid  green;
+  margin-bottom: 10px;
+}
